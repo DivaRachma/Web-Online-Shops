@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Toko Online Kami</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <h1 class="animate__animated animate__fadeIn">Toko Online Kami</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produk</a></li>
+                <li><a href="payment.html">Pembayaran</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari produk...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+    <main>
+        <section id="products">
+            <h2 class="animate__animated animate__slideInLeft">Semua Produk</h2>
+            <div class="product-container">
+                <div class="product animate__animated animate__zoomIn" data-name="Laptop Gaming" data-price="1500">
+                    <img src="https://example.com/laptop.jpg" alt="Laptop Gaming">
+                    <h3>Laptop Gaming</h3>
+                    <p>Harga: Rp15.000.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+                <div class="product animate__animated animate__zoomIn" data-name="Smartphone" data-price="800">
+                    <img src="https://example.com/smartphone.jpg" alt="Smartphone">
+                    <h3>Smartphone</h3>
+                    <p>Harga: Rp8.000.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+                <div class="product animate__animated animate__zoomIn" data-name="Headphone Bluetooth" data-price="100">
+                    <img src="https://example.com/headphone.jpg" alt="Headphone Bluetooth">
+                    <h3>Headphone Bluetooth</h3>
+                    <p>Harga: Rp1.000.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+                <div class="product animate__animated animate__zoomIn" data-name="Kamera Mirrorless" data-price="1200">
+                    <img src="https://example.com/camera.jpg" alt="Kamera Mirrorless">
+                    <h3>Kamera Mirrorless</h3>
+                    <p>Harga: Rp12.000.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+                <div class="product animate__animated animate__zoomIn" data-name="Smartwatch" data-price="250">
+                    <img src="https://example.com/smartwatch.jpg" alt="Smartwatch">
+                    <h3>Smartwatch</h3>
+                    <p>Harga: Rp2.500.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Popup Keranjang -->
+    <div id="cart-popup" class="cart-popup">
+        <div class="cart-popup-content">
+            <span class="close">&times;</span>
+            <h2>Keranjang Belanja</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: Rp<span id="total-price">0</span></p>
+            <button id="pay-button" class="animate__animated animate__pulse animate__infinite">Bayar Sekarang</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
