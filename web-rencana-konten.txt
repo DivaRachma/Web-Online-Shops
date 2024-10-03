@@ -1,7 +1,10 @@
 RENCAN WEB ONLINE SHOP
 -MENAMBAHKAN JAVA SCRIPT
+*angular
+*react
 -PHP
--FRONT END\
+*laravel
+-FRONT END
 *edit
 -BACK END
 *Database
