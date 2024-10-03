@@ -1,6 +1,7 @@
 RENCAN WEB ONLINE SHOP
 -MENAMBAHKAN JAVA SCRIPT
 *view
+*angular
 *laravel
 *run
 -PHP
