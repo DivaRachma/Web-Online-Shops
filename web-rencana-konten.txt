@@ -4,7 +4,8 @@ RENCAN WEB ONLINE SHOP
 *laravel
 *run
 -PHP
--FRONT END\
+*laravel
+-FRONT END
 *edit
 -BACK END
 *Database
